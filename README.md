@@ -50,6 +50,8 @@ Notes
   [Google Chrome](https://www.google.com/intl/en/chrome/browser/) 33.0,
   [Opera](http://www.opera.com) 20.0, and
   [Apple Safari](https://www.apple.com/safari/) 5.1.
+* The implementation is inspired by the scripts in
+  [pygal.js](https://github.com/Kozea/pygal.js/).
 
 License
 -------
