@@ -29,7 +29,7 @@
 			var plot = $vg('.serie-' + num + ' .reactive', ctx);
 			var plotOverlay = $vg('.text-overlay .serie-' + num, ctx);
 			var rect = $vg(this).children('rect');
-			if (rect.css('fill') == 'transparent') {
+			if (plotOverlay.css('visibility') == 'hidden') {
 				// Show.
 				rect.css('fill', '');
 				plotOverlay.css('visibility', 'visible');
