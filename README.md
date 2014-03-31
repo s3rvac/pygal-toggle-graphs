@@ -46,7 +46,10 @@ Notes
   distributed with [pygal](http://github.com/Kozea/pygal). At the time of
   writing, these are the two modules listed above in the usage description.
 * It was tested with [pygal](http://github.com/Kozea/pygal) 1.4.5 and
-  [Firefox 27](www.mozilla.org/en/firefox/).
+  [Mozilla Firefox](www.mozilla.org/en/firefox/) 27.0,
+  [Google Chrome](https://www.google.com/intl/en/chrome/browser/) 33.0,
+  [Opera](http://www.opera.com) 20.0, and
+  [Apple Safari](https://www.apple.com/safari/) 5.1.
 
 License
 -------
