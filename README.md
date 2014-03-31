@@ -24,9 +24,9 @@ line_chart = pygal.Line(js=js)
 # ...
 line_chart.render_to_file('graph.svg')
 ```
-After that, when viewing the chart on a website, click a legend to toggle the
-visibility of the corresponding graph (show/hide). For a description of how to
-embed a chart on your website, consult the [documentation of
+After that, when viewing the chart on a website, click on a legend to toggle
+the visibility of the corresponding graph (show/hide). For a description of how
+to embed a chart on your website, consult the [documentation of
 pygal](http://pygal.org/documentation/).
 
 Example
