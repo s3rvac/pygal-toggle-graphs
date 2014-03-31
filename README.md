@@ -45,6 +45,8 @@ Notes
 * It requires the presence of the original JavaScript modules that are
   distributed with [pygal](http://github.com/Kozea/pygal). At the time of
   writing, these are the two modules listed above in the usage description.
+* It was tested with [pygal](http://github.com/Kozea/pygal) 1.4.5 and
+  [Firefox 27](www.mozilla.org/en/firefox/).
 
 License
 -------
