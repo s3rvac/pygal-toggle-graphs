@@ -16,7 +16,7 @@ import pygal
 js = [
   'http://kozea.github.com/pygal.js/javascripts/svg.jquery.js',     # Original
   'http://kozea.github.com/pygal.js/javascripts/pygal-tooltips.js', # Original
-  'https://raw.githubusercontent.com/s3rvac/pygal-toggle-graphs/master/pygal-toggle-graphs.js'
+  'http://rawgit.com/s3rvac/pygal-toggle-graphs/master/pygal-toggle-graphs.js'
 ]
 
 line_chart = pygal.Line(js=js)
