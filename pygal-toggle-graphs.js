@@ -23,7 +23,7 @@
 */
 
 (function() {
-	init = function(ctx) {
+	var init = function(ctx) {
 		$vg('.activate-serie', ctx).click((function() {
 			var num = this.id.replace('activate-serie-', '');
 			var $plot = $vg('.serie-' + num + ' .reactive', ctx);
@@ -43,14 +43,14 @@
 		}));
 	};
 
-	$vg(function() {
+	this.initPygalToggleGraphs = function() {
 		var $charts = $vg('.pygal-chart');
-		if ($charts.size()) {
-			return $charts.each(function() {
-				return init($vg(this));
-			});
-		} else {
-			return init();
-		}
+		return $charts.each(function() {
+			return init($vg(this));
+		});
+	}
+
+	$vg(function() {
+		initPygalToggleGraphs();
 	});
 }).call(this);
