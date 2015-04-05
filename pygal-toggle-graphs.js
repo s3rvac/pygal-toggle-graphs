@@ -26,19 +26,19 @@
 	init = function(ctx) {
 		$vg('.activate-serie', ctx).click((function() {
 			var num = this.id.replace('activate-serie-', '');
-			var plot = $vg('.serie-' + num + ' .reactive', ctx);
-			var plotOverlay = $vg('.text-overlay .serie-' + num, ctx);
-			var rect = $vg(this).children('rect');
-			if (plotOverlay.css('visibility') == 'hidden') {
+			var $plot = $vg('.serie-' + num + ' .reactive', ctx);
+			var $plotOverlay = $vg('.text-overlay .serie-' + num, ctx);
+			var $rect = $vg(this).children('rect');
+			if ($plotOverlay.css('visibility') == 'hidden') {
 				// Show.
-				rect.css('fill', '');
-				plotOverlay.css('visibility', 'visible');
-				return plot.show();
+				$rect.css('fill', '');
+				$plotOverlay.css('visibility', 'visible');
+				return $plot.show();
 			} else {
 				// Hide.
-				rect.css('fill', 'transparent');
-				plotOverlay.css('visibility', 'hidden');
-				return plot.hide();
+				$rect.css('fill', 'transparent');
+				$plotOverlay.css('visibility', 'hidden');
+				return $plot.hide();
 			}
 		}));
 	};
