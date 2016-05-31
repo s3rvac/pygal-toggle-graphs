@@ -5,9 +5,9 @@
 import pygal
 
 js = [
-    'http://kozea.github.com/pygal.js/javascripts/svg.jquery.js',      # Original
-    'http://kozea.github.com/pygal.js/javascripts/pygal-tooltips.js',  # Original
-    'http://rawgit.com/s3rvac/pygal-toggle-graphs/master/pygal-toggle-graphs.js'
+    'https://kozea.github.com/pygal.js/javascripts/svg.jquery.js',      # Original
+    'https://kozea.github.com/pygal.js/javascripts/pygal-tooltips.js',  # Original
+    'https://rawgit.com/s3rvac/pygal-toggle-graphs/master/pygal-toggle-graphs.js'
 ]
 
 GraphStyle = pygal.style.Style(
