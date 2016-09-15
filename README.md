@@ -45,7 +45,7 @@ Notes
 * It requires the presence of the original JavaScript modules that are
   distributed with [pygal](https://github.com/Kozea/pygal). At the time of
   writing, these are the two modules listed above in the usage description.
-* It was tested with [pygal](https://github.com/Kozea/pygal) 1.4-2.2 and
+* It was tested with [pygal](https://github.com/Kozea/pygal) 1.4-2.3 and
   [Mozilla Firefox](https://www.mozilla.org/en/firefox/) 27-48,
   [Google Chrome](https://www.google.com/intl/en/chrome/browser/) 33-53,
   [Opera](https://www.opera.com) 20-36, and
