@@ -47,7 +47,7 @@ Notes
   writing, these are the two modules listed above in the usage description.
 * It was tested with [pygal](https://github.com/Kozea/pygal) 1.4-2.2 and
   [Mozilla Firefox](https://www.mozilla.org/en/firefox/) 27-48,
-  [Google Chrome](https://www.google.com/intl/en/chrome/browser/) 33-52,
+  [Google Chrome](https://www.google.com/intl/en/chrome/browser/) 33-53,
   [Opera](https://www.opera.com) 20-36, and
   [Apple Safari](https://www.apple.com/safari/) 5.1.
 * The implementation is inspired by the scripts in
